@@ -1,0 +1,126 @@
+.head {
+  text-align: center;
+  height: 60px;
+  background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  position: relative;
+  color: whitesmoke;
+  animation: change 5s ease-in-out infinite;
+
+  font-family: sans-serif;
+}
+
+.corona {
+  width: 25%;
+  height: 200px;
+}
+.row {
+  height: 100vh;
+  width: 100%;
+}
+
+.body {
+  background-image: linear-gradient(#42455a, #42455a),
+    radial-gradient(circle at top left, #fd00da, #19d7f8);
+  color: whitesmoke;
+
+  font-family: sans-serif;
+}
+.nav {
+  animation: change 5s ease-in-out infinite;
+  background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  border-left: 60px;
+  height: 100vh;
+
+  color: #255784;
+
+  transition: 0.2s;
+}
+.btn {
+  animation: change 5s ease-in-out infinite;
+  background-image: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+  background-size: 400% 400%;
+  padding: 5px 10px;
+  transition: 0.2s;
+  right: 80px;
+  margin-top: 3rem;
+  position: absolute;
+  overflow: hidden;
+}
+.btn:hover {
+  background-color: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 10px #2196f3;
+  color: #255784;
+  padding: 10px 20px;
+  transition: 0.2s;
+  right: 80px;
+  position: absolute;
+}
+
+.my-element {
+  color: whitesmoke;
+  animation: change 5s ease-in-out infinite;
+
+  font-family: sans-serif;
+  font-size: 60px;
+
+  animation: bounceInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 2s; /* don't forget to set a duration! */
+}
+
+.btn-1 {
+  background-color: #2196f3;
+  overflow: hidden;
+  padding: 2.5px 5px;
+  border-color: #2196f3;
+  border-radius: 5px;
+  margin-top: 3rem;
+
+  transition: 0.2s;
+}
+.btn-1:hover {
+  background-color: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 10px #2196f3;
+  color: #255784;
+  padding: 5px 10px;
+
+  transition: 0.2s;
+  overflow: hidden;
+  border-color: #2196f3;
+}
+
+.Load {
+  bottom: 50%;
+  background-image: linear-gradient(#42455a, #42455a),
+    radial-gradient(circle at top left, #fd00da, #19d7f8);
+  color: whitesmoke;
+
+  font-family: sans-serif;
+}
+@keyframes change {
+  0% {
+    background-position: 0 50%;
+  }
+  50% {
+    background-position: 50% 100%;
+  }
+  100% {
+    background-position: 0 50%;
+  }
+}
+
+.Search {
+  margin-top: 3rem;
+}
+.col-sm-6 {
+  height: 4vh;
+}
+.cor {
+  height: 5vh;
+}
+.nam {
+  animation: bounceIn;
+
+  animation-duration: 2s;
+}

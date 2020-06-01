@@ -1,2 +1,0 @@
-# RocketGrid
-Created with CodeSandbox
